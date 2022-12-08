@@ -14,7 +14,7 @@ Welcome to the LIGHTSABERS Robot Code Repository for the FRC 2022-2023 Season. T
 - [3rd Party Libraries](#3rd-party-libraries)
 - [Copy Last Years Robot Code](#copy-last-years-robot-code)
 - [Git Update](#git-update)
-- [Next?](#next?)
+- [Next?](#next)
 
 
 # Preliminaries with Git
