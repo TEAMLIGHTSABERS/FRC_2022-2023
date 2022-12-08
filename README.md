@@ -144,21 +144,22 @@ WPILib-New-Commands
 
 # Copy Last Years Robot Code
 
-To put last years code into the project.  Last year's robot code in isn the Robot_Code directory.  Open the file Robot.java and select "Raw" button in the upper right.  Right click on the "Raw" display, select "Save as", navigate to the Project's "robot" directory,
+Last year's robot code is in the Robot_Code directory.  Go to that directory on your computer, copy the file called "Robot.java", and navigate to your project's "robot" directory:
   
   {Drive_Letter}\Users\Public\GitHub\FRC_2022-2023\Robot_Code\Last_Year\src\main\java\frc\robot
-
-Type in the name Robot.java, and select Ok to save it over the current Robot.java file.
-In the above directory, there will now be two files:
 
 Main.java
 Robot.java
 
-The "Robot.java" file contains Last Year's "Robot.java" file. 
+If you want to see the differences between the default code for a "Timed Robot" and Last Year's code.  Save the Robot.java file to another name before before taking the next step.
+
+Now, paste the file that you copied from the "Robot_Code" directory into the project's robot directory.  This will overwrite the "Robot.java" file in that directory with a new one that contains Last Year's code.
+
+If you copied the default "Timed Robot" code, then delete the file when you are done looking at it. 
 
 # Git Update
 
-Save any open files in the project.  To to GitHub Desktop and commit the changes by putting "Created Project for Last Year's Robot" in the Summary box (lower left) and clicking on the "Commit" button (bottom left). Push the change to the remote repository by clicking on the "Push Origin" button on the top (right side) of the GitHub Desktop window.
+Save any open files in the project.  In the GitHub Desktop, commit the changes by typing "Created Project for Last Year's Robot" in the commit summary box and clicking on the "Commit to {yourname}Dev" button. Backup the change to the remote repository by clicking on the "Push Origin" button on the top of the GitHub Desktop window.  You're done.
 
 # Next?
 
