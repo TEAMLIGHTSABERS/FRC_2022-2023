@@ -39,7 +39,7 @@ Last year's robot code will be in the folder "Robot_Code/Last_Year.
 
 # Zero to Robot
 
-Starting with Step 2 of the Zero to Robot instructions (https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html) install the WPILib libaries.  Since we are programming Java and we are not building the WPILib libraries, it is not necessary to perform the steps for the "Additional C++ Installation for Simulation".  When the instructions on this web page have been completed, the following will be installed:
+Starting with Step 2 of the Zero to Robot instructions (https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html) install the WPILib libaries. *Since we are programming in Java and we are not building the WPILib libraries, it is not necessary to perform the steps for the "Additional C++ Installation for Simulation".*  When the instructions on this web page have been completed, the following will be installed on your computer:
   
 Visual Studio Code - The supported IDE for 2019 and later robot code development. The offline installer sets up a separate copy of VS Code for WPILib development, even if you already have VS Code on your machine. This is done because some of the settings that make the WPILib setup work may break existing workflows if you use VS Code for other projects.
 
@@ -59,7 +59,7 @@ Continue to the next page in the instructions and select the "Visual Studio Code
 
 # GitHub Revisited
 
-Near the top of this repository is a green button called "Code" next to the word "About".  Left click on "Code" and select the "Open with GitHub Desktop" option.  If the GitHub Desktop doesn't exist it will download it and ask you to log-in.  If you don't have an account, create one for free and repeat the process of left clicking on "Code" and logging-in to the GitHub Desktop.
+Near the top of this repository is a green button called "Code" next to the word "About".  Left click on "Code" and select the "Open with GitHub Desktop" option.  If the GitHub Desktop Application doesn't exist on your computer, GitHub will download it and ask you to log-in.  If you don't have an account, create one for free and repeat the process of left clicking on "Code" and logging-in to the GitHub Desktop.
 
 ![image](https://user-images.githubusercontent.com/54441806/206072601-60adb60e-19bf-4245-85d4-27e3497e33dd.png)
 ---------------------------------------------------------------------------------------------------------------
@@ -71,15 +71,15 @@ This repository now exists locally on your computer at:
 
 "{Drive_Letter}:\Users\Public\GitHub\FRC_2022-2023"
 
-Any files that you add or modify in this directory (the local repository) are registered with GitHub, and any changes that are different from the Remote Repository on the Web are shown in the GitHub Desktop.  For example: In the directory above, if you open the README.md file in a text editor (ex. wordpad), change the spelling of a word, and then save the file back to the repository, the GitHub Desktop will change to look like this:
+Any files that you add, modify, or delete in this directory are compared by GitHub Desktop considers to be the offical version of that file.  If there is a difference GitHub Desktop displays that difference in its window.  For example: In the directory above -- if you were to open the README.md file in a text editor (ex. wordpad), change the spelling of a word, and then save the file in the repository, the GitHub Desktop will change to look like this:
 
 ![image](https://user-images.githubusercontent.com/54441806/206082745-758bfe6e-c9ea-4745-9dae-d1e5575a19e8.png)
 
-To backup the changes to your local repository to the Remote Repository on the Web, click on the "push" button a the top of the GitHub Window.
+Any change shown GetHub Desktop windows is not considered to be "official" until you commit the the change to GitHub.  To commit the change, add a short summary of the change in the summary box above the blue "Commit to {yourname}Dev" button, then click the button.  The change will disappear from the GitHub Desktop window, which means that the local GitHub repository considers the change to now be "official".  To backup the change(s) of  your local repositiory to the Remote Repository on the Web, click on the "Push origin" button at the top of the GitHub Window.
 
 ![image](https://user-images.githubusercontent.com/54441806/206085043-25b620a6-297c-477d-adf6-412e7a08d93c.png)
 
-Now you can create or open Robot project files in the local repository using the Visual Studio Code editor and when you get all done you can commit them to Git storage and back them up to the Git remote storage on the Web. 
+That's it.  Now you can create or open Robot project files in the local repository using the Visual Studio Code editor and after you save them, you can commit them to local Git storage and back them up to the Git remote storage on the Web. 
 
 # Programming Basics
 
