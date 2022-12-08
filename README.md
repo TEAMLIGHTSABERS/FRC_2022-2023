@@ -71,11 +71,11 @@ This repository now exists locally on your computer at:
 
 "{Drive_Letter}:\Users\Public\GitHub\FRC_2022-2023"
 
-Any files that you add, modify, or delete in this directory are compared by GitHub Desktop considers to be the offical version of that file.  If there is a difference GitHub Desktop displays that difference in its window.  For example: In the directory above -- if you were to open the README.md file in a text editor (ex. wordpad), change the spelling of a word, and then save the file in the repository, the GitHub Desktop will change to look like this:
+Any files that you add, modify, or delete in this directory are compared by GitHub Desktop to what it considers to be the offical version of that file.  If there is a difference, GitHub Desktop displays that difference in its window.  For example: In the directory above -- if you were to open the README.md file in a text editor (ex. wordpad), change the spelling of a word, and then save the file in the repository, the GitHub Desktop will change to look like this:
 
 ![image](https://user-images.githubusercontent.com/54441806/206082745-758bfe6e-c9ea-4745-9dae-d1e5575a19e8.png)
 
-Any change shown GetHub Desktop windows is not considered to be "official" until you commit the the change to GitHub.  To commit the change, add a short summary of the change in the summary box above the blue "Commit to {yourname}Dev" button, then click the button.  The change will disappear from the GitHub Desktop window, which means that the local GitHub repository considers the change to now be "official".  To backup the change(s) of  your local repositiory to the Remote Repository on the Web, click on the "Push origin" button at the top of the GitHub Window.
+Any change shown GetHub Desktop windows is not considered to be "official" until you commit the the change to GitHub.  To commit the change, add a short summary of the change in the summary box above the blue "Commit to {yourname}Dev" button, then click the button.  The change will disappear from the GitHub Desktop window, which means that the local GitHub repository considers the change to now be "official".  To backup the change(s) of  your local repositiory to the Remote Repository on the Web, click on the "Push origin" button at the top of the GitHub Window (make sure that the branch selection shows {yourname}Dev before taking this action).
 
 ![image](https://user-images.githubusercontent.com/54441806/206085043-25b620a6-297c-477d-adf6-412e7a08d93c.png)
 
