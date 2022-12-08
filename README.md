@@ -20,7 +20,7 @@ Welcome to the LIGHTSABERS Robot Code Repository for the FRC 2022-2023 Season. T
 
 First of all, I'm assuming that you are reading this README.md file from the "main" branch on the LIGHTSABERS Web-based GetHub site (i.e. the remote Github repositiory).  This repository should not be cloned from the "main" branch.  The first thing to do is to create a new branch by clicking on the "branch" icon at the top of this repository.
 ![image](https://user-images.githubusercontent.com/54441806/205994006-44c873f8-bac8-4605-8b4d-bd86b5a21ced.png)
-This will bring up a "branch" page, and on the right side of this page is a green button called "New Branch".  Click on "New Branch" button, type "{yourname}Dev" in the Branch Name, make sure that the source is set to the "main" branch, and then click "Create Branch".  
+This will bring up a "branch" page, and on the right side of this page is a green button called "New Branch".  Click on the "New Branch" button, type "{yourname}Dev" in the Branch Name, make sure that the source is set to the "main" branch, and then click "Create Branch".  
 ![image](https://user-images.githubusercontent.com/54441806/205996651-fa7224c6-71c3-4abe-b60e-2d3e37ea0f4c.png)
 The resulting "Overview" page will then show that there is an Active branch called "{yourname}Dev".  You can click on the "{yourname}Dev" branch and you will see that it has the same files as were in the "main" branch.
 ![image](https://user-images.githubusercontent.com/54441806/205998157-9fa5980c-fed6-4cf2-befc-6f007a0b72eb.png)
@@ -59,7 +59,7 @@ Continue to the next page in the instructions and select the "Visual Studio Code
 
 # GitHub Revisited
 
-Near the top of this repository is a green button called "Code" next to the word "About".  Left click on "Code" and select the "Open with GitHub Desktop" option.  If the GitHub Desktop Application doesn't exist on your computer, GitHub will download it and ask you to log-in.  If you don't have an account, create one for free and repeat the process of left clicking on "Code" and logging-in to the GitHub Desktop.
+Assuming that you have returned to this README.md file on the Web-based GitHub (remote repository), near the top of this repository is a green button called "Code" next to the word "About".  Left click on the "Code" button and select the "Open with GitHub Desktop" option.  If the GitHub Desktop Application doesn't exist on your computer, GitHub will download it and ask you to log-in.  If you don't have an account, create one for free and repeat the process of left clicking on "Code" and logging-in to the GitHub Desktop.
 
 ![image](https://user-images.githubusercontent.com/54441806/206072601-60adb60e-19bf-4245-85d4-27e3497e33dd.png)
 ---------------------------------------------------------------------------------------------------------------
@@ -75,7 +75,7 @@ Any files that you add, modify, or delete in this directory are compared by GitH
 
 ![image](https://user-images.githubusercontent.com/54441806/206082745-758bfe6e-c9ea-4745-9dae-d1e5575a19e8.png)
 
-Any change shown GetHub Desktop windows is not considered to be "official" until you commit the the change to GitHub.  To commit the change, add a short summary of the change in the summary box above the blue "Commit to {yourname}Dev" button, then click the button.  The change will disappear from the GitHub Desktop window, which means that the local GitHub repository considers the change to now be "official".  To backup the change(s) of  your local repositiory to the Remote Repository on the Web, click on the "Push origin" button at the top of the GitHub Window (make sure that the branch selection shows {yourname}Dev before taking this action).
+Any change shown GetHub Desktop window is not considered to be "official" until you commit the change to GitHub.  To commit the change, add a short summary of the change in the summary box above the blue "Commit to {yourname}Dev" button, then click the button.  The change will disappear from the GitHub Desktop window, which means that the local GitHub repository considers the change to now be "official".  To backup the change(s) of  your local repositiory to the Remote Repository on the Web, click on the "Push origin" button at the top of the GitHub Window (make sure that the branch selection shows "{yourname}Dev" before taking this action).
 
 ![image](https://user-images.githubusercontent.com/54441806/206085043-25b620a6-297c-477d-adf6-412e7a08d93c.png)
 
