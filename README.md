@@ -14,6 +14,7 @@ Welcome to the LIGHTSABERS Robot Code Repository for the FRC 2022-2023 Season. T
 - [3rd Party Libraries](#3rd-party-libraries)
 - [Copy Last Years Robot Code](#copy-last-years-robot-code)
 - [Git Update](#git-update)
+- [Next?](#next?)
 
 
 # Preliminaries with Git
@@ -158,3 +159,9 @@ The "Robot.java" file contains Last Year's "Robot.java" file.
 # Git Update
 
 Save any open files in the project.  To to GitHub Desktop and commit the changes by putting "Created Project for Last Year's Robot" in the Summary box (lower left) and clicking on the "Commit" button (bottom left). Push the change to the remote repository by clicking on the "Push Origin" button on the top (right side) of the GitHub Desktop window.
+
+# Next?
+
+It is now time to build your own Robot Code.  So, go create a new project to do something else.  What might you do?  Check out the examples in:
+
+C:\Users\Public\Documents\GitHub\LS\FRC_2022-2023\allwpilib-main\allwpilib-main\wpilibjExamples\src\main\java\edu\wpi\first\wpilibj\examples 
