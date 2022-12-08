@@ -148,6 +148,8 @@ Last year's robot code is in the Robot_Code directory.  Go to that directory on 
   
   {Drive_Letter}\Users\Public\GitHub\FRC_2022-2023\Robot_Code\Last_Year\src\main\java\frc\robot
 
+This directory will have the following files it it:
+
 Main.java
 Robot.java
 
