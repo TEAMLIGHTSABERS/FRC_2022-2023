@@ -3,7 +3,7 @@
 [![Gradle](https://github.com/wpilibsuite/allwpilib/actions/workflows/gradle.yml/badge.svg?branch=main)](https://github.com/wpilibsuite/allwpilib/actions/workflows/gradle.yml)
 [![Java Documentation](https://img.shields.io/badge/documentation-java-orange)](https://github.wpilib.org/allwpilib/docs/development/java/)
 
-Welcome to the LIGHTSABERS Robot Code Repository for the FRC 2022-2023 Season. This Repositiory Contains the steps for installing the Coding Enviroment and loading in last year's FRC Robot Code.
+Welcome to the LIGHTSABERS Robot Code Repository for the FRC 2022-2023 Season. This Repository Contains the steps for installing the Coding Environment and loading in last year's FRC Robot Code.
 
 - [Preliminaries with Git](#preliminaries-with-git)
 - [Robot Home](#robot-home)
@@ -19,7 +19,7 @@ Welcome to the LIGHTSABERS Robot Code Repository for the FRC 2022-2023 Season. T
 
 # Preliminaries with Git
 
-First of all, I'm assuming that you are reading this README.md file from the "main" branch on the LIGHTSABERS Web-based GetHub site (i.e. the remote Github repositiory).  This repository should not be cloned from the "main" branch.  The first thing to do is to create a new branch by clicking on the "branch" icon at the top of this repository.
+First of all, I'm assuming that you are reading this README.md file from the "main" branch on the LIGHTSABERS Web-based GetHub site (i.e. the remote Github repository).  This repository should not be cloned from the "main" branch.  The first thing to do is to create a new branch by clicking on the "branch" icon at the top of this repository.
 ![image](https://user-images.githubusercontent.com/54441806/205994006-44c873f8-bac8-4605-8b4d-bd86b5a21ced.png)
 This will bring up a "branch" page, and on the right side of this page is a green button called "New Branch".  Click on the "New Branch" button, type "{yourname}Dev" in the Branch Name, make sure that the source is set to the "main" branch, and then click "Create Branch".  
 ![image](https://user-images.githubusercontent.com/54441806/205996651-fa7224c6-71c3-4abe-b60e-2d3e37ea0f4c.png)
@@ -40,7 +40,7 @@ Last year's robot code will be in the folder "Robot_Code/Last_Year.
 
 # Zero to Robot
 
-Starting with Step 2 of the Zero to Robot instructions (https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html) install the WPILib libaries. *Since we are programming in Java and we are not building the WPILib libraries, it is not necessary to perform the steps for the "Additional C++ Installation for Simulation".*  When the instructions on this web page have been completed, the following will be installed on your computer:
+Starting with Step 2 of the Zero to Robot instructions (https://docs.wpilib.org/en/stable/docs/zero-to-robot/step-2/wpilib-setup.html) install the WPILib libraries. *Since we are programming in Java and we are not building the WPILib libraries, it is not necessary to perform the steps for the "Additional C++ Installation for Simulation".*  When the instructions on this web page have been completed, the following will be installed on your computer:
   
 Visual Studio Code - The supported IDE for 2019 and later robot code development. The offline installer sets up a separate copy of VS Code for WPILib development, even if you already have VS Code on your machine. This is done because some of the settings that make the WPILib setup work may break existing workflows if you use VS Code for other projects.
 
@@ -72,11 +72,11 @@ This repository now exists locally on your computer at:
 
 "{Drive_Letter}:\Users\Public\GitHub\FRC_2022-2023"
 
-Any files that you add, modify, or delete in this directory are compared by GitHub Desktop to what it considers to be the offical version of that file.  If there is a difference, GitHub Desktop displays that difference in its window.  For example: In the directory above -- if you were to open the README.md file in a text editor (ex. wordpad), change the spelling of a word, and then save the file in the repository, the GitHub Desktop will change to look like this:
+Any files that you add, modify, or delete in this directory are compared by GitHub Desktop to what it considers to be the official version of that file.  If there is a difference, GitHub Desktop displays that difference in its window.  For example: In the directory above -- if you were to open the README.md file in a text editor (ex. wordpad), change the spelling of a word, and then save the file in the repository, the GitHub Desktop will change to look like this:
 
 ![image](https://user-images.githubusercontent.com/54441806/206082745-758bfe6e-c9ea-4745-9dae-d1e5575a19e8.png)
 
-Any change shown GetHub Desktop window is not considered to be "official" until you commit the change to GitHub.  To commit the change, add a short summary of the change in the summary box above the blue "Commit to {yourname}Dev" button, then click the button.  The change will disappear from the GitHub Desktop window, which means that the local GitHub repository considers the change to now be "official".  To backup the change(s) of  your local repositiory to the Remote Repository on the Web, click on the "Push origin" button at the top of the GitHub Window (make sure that the branch selection shows "{yourname}Dev" before taking this action).
+Any change shown GetHub Desktop window is not considered to be "official" until you commit the change to GitHub.  To commit the change, add a short summary of the change in the summary box above the blue "Commit to {yourname}Dev" button, then click the button.  The change will disappear from the GitHub Desktop window, which means that the local GitHub repository considers the change to now be "official".  To back up the change(s) of your local repository to the Remote Repository on the Web, click on the "Push origin" button at the top of the GitHub Window (make sure that the branch selection shows "{yourname}Dev" before taking this action).
 
 ![image](https://user-images.githubusercontent.com/54441806/206085043-25b620a6-297c-477d-adf6-412e7a08d93c.png)
 
@@ -91,7 +91,7 @@ Read this page to get familiar with how to call the WPILib command from the comm
 
 # Creating a New Robot Project
   
-Eventually, a section called "Creating a New WPILib Project" is found toward the middle of the the Robot Program Page (https://docs.wpilib.org/en/stable/docs/software/vscode-overview/creating-robot-program.html).  Perform the tasks stated in your Visual Studio Code application. 
+Eventually, a section called "Creating a New WPILib Project" is found toward the middle of the Robot Program Page (https://docs.wpilib.org/en/stable/docs/software/vscode-overview/creating-robot-program.html).  Perform the tasks stated in your Visual Studio Code application. 
 
 While doing these tasks, a "New Project Creator Window" will pop up.  Select the following on the first row:
 
@@ -122,7 +122,7 @@ library is already part of your project.  Note: If your managed libraries are pr
 
 Pay attention to the "command line" option for installing vendor libraries.  Three-quarters of the way down this page is a list of common vendors and their web pages.
 
-Add the Rev library and the Phenoix Library to your project by:
+Add the Rev library and the Phoenix Library to your project by:
 
 1. Open a terminal in VS Code from the "View > Terminal" tab.
 
@@ -138,7 +138,7 @@ Note: these website addresses were valid for the 2022 season.
 
 In VS Code, use the "Manage Vendor Libraries > Manage Current Libraries" to show you 3 libraries are part of the project:
 
-CTRE-Pheonix
+CTRE-Phoenix
 RevLib
 WPILib-New-Commands
 
@@ -153,7 +153,7 @@ This directory will have the following files it it:
 Main.java
 Robot.java
 
-If you want to see the differences between the default code for a "Timed Robot" and Last Year's code.  Save the Robot.java file to another name before before taking the next step.
+If you want to see the differences between the default code for a "Timed Robot" and Last Year's code.  Save the Robot.java file to another name before taking the next step.
 
 Now, paste the file that you copied from the "Robot_Code" directory into the project's robot directory.  This will overwrite the "Robot.java" file in that directory with a new one that contains Last Year's code.
 
